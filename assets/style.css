@@ -1,0 +1,35 @@
+*{width: 100%;margin: 0 auto; padding: 0}
+
+.wrapper { width: 1150px; margin: 0 auto;}
+
+.main { height: 100px; width:100%; background: black; display:grid; align-items:center; 
+	grid-template-columns: 0fr 1fr 1fr }
+
+.main h1{ color:yellow; font-family:'Pacifico';line-height: 100px; 
+	padding-left: 60px; font-size: 40px}
+
+.logo {height: 80px; width: 110px; }
+
+.list { width:100%; height:50px; background:yellow;
+	font-family:'Bruno Ace SC'; font-size: 18px; text-transform:uppercase; }
+
+.list ul li { display: inline; line-height:50px; padding: 15px 65px }
+
+.list ul li:hover{ background:black; color:white; }
+
+.header {width: 100%; height: 20px; color: black}
+
+.phead h1{font-family:'Bungee Spice'; border-bottom: solid 2px black;  }
+
+
+.section {width: 100%}
+.bx {width: 270px; float: left; margin: 5px 50px}
+.bximg { height:290px; width:290px;background:black; }
+.bx h3 { padding:5px 0; font-family: 'Crimson Text'; font-size:25px }
+.bx a{ background:black; color:yellow; padding:10px;display:inline-block; 
+	font-family: 'Vina Sans'; font-size: 20px;text-align: center;}
+.bximg img { height:100% ; width:100% }
+.bx a:hover { background:yellow; color:black; }
+
+.footer{ background: black; width:100%; height:30px; clear:both; }
+.footer p{color: white; text-align: center; line-height: 30px}
